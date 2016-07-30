@@ -14,7 +14,6 @@ config = {
     'author_email': 'flrn@nrmncr.net',
     'version': '0.1',
     'install_requires': [
-        'pytest',
         'gspread',
         'oauth2client',
         'PyOpenSSL',
@@ -24,7 +23,7 @@ config = {
 
     'packages': ['certificates'],
     'scripts': [
-        'bin/worker'
+        'bin/certificates'
     ],
 
     'data_files': [
